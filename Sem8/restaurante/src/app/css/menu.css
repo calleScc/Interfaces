@@ -1,0 +1,48 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ----- HEADER PRINCIPAL ----- */
+.main-header {
+    background: #006ab3;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Botón hamburguesa (solo móvil) */
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* ----- SUBMENÚ ----- */
+.submenu {
+    background: #e9e9e9;
+    padding: 12px 30p
