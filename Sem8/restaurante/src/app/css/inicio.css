@@ -53,7 +53,6 @@ body {
     color: #ff9f00;
 }
 
-/* HERO */
 .hero {
     height: 90vh;
     background: url('fondo.jpeg') center/cover no-repeat;
@@ -156,17 +155,16 @@ footer {
 }
 .plato-imagen {
     width: 100%;
-    max-width: 350px;      /* Controla el tamaño máximo */
+    max-width: 350px;      
     height: auto;
-    border-radius: 18px;   /* Esquinas redondeadas */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);  /* Sombra elegante */
+    border-radius: 18px;   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);  
     display: block;
-    margin: 20px auto;     /* Centrar imagen */
-    object-fit: cover;     /* Recorte bonito si la imagen es irregular */
+    margin: 20px auto;     
+    object-fit: cover;     
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efecto hover */
 .plato-imagen:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
@@ -178,14 +176,14 @@ footer {
     object-fit: cover;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 3px solid #ff7b00; /* color cálido */
+    border: 3px solid #ff7b00; 
 }
 
 .img-fritada:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
 }
-/* ESTILO ESPECIAL PARA LA IMAGEN: cuy.jpeg */
+
 .cuy-img {
     width: 100%;
     height: 260px;
@@ -193,15 +191,14 @@ footer {
     border-radius: 18px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
-      border: 3px solid #ff7b00; /* color cálido */
+      border: 3px solid #ff7b00; 
 }
 
-/* ANIMACIÓN AL PASAR EL MOUSE */
 .cuy-img:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 22px rgba(0,0,0,0.35);
 }
-/* ESTILO ESPECIAL SOLO PARA LA IMAGEN DE ENCEBOLLADO */
+
 .plato-card img[src="encebollado.jpeg"] {
     width: 100%;
     height: 190px;
@@ -209,13 +206,12 @@ footer {
     border-radius: 18px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
-      border: 3px solid #ff7b00; /* color cálido */
+      border: 3px solid #ff7b00; 
 }
 
-/* EFECTO LINDO CUANDO EL MOUSE PASA */
 .plato-card img[src="encebollado.jpeg"]:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 22px rgba(0,0,0,0.35);
 }
-}
+
 
